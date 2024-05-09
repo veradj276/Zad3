@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewGimnazija"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gimnazija"
+        android:onClick="onClickGimp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewOdeljenje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Odeljenje"
+        android:onClick="onClickOdelj"
+        android:textSize="20sp"
+        />
+</LinearLayout>
